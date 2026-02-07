@@ -6,3 +6,5 @@ app_publisher = "Ahmed Abbas"
 app_description = "Employee disciplinary history and reporting for ERPNext"
 app_email = "your.email@example.com"
 app_license = "MIT"
+
+app_include_js = ["employee_disciplinary_app.bundle.js"]
