@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-02-07 10:00:00.000000",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": null,
+ "modified": "2024-02-07 10:00:00.000000",
+ "module": "HR",
+ "name": "Employee Disciplinary History",
+ "prepared_report": 0,
+ "ref_doctype": "Employee Disciplinary Action",
+ "report_name": "Employee Disciplinary History",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ]
+}
