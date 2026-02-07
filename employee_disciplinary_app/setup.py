@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
 
-with open("requirements.txt") as f:
-    install_requires = f.read().strip().split("\n")
+def get_requirements():
+    try:
+        with open("requirements.txt") as f:
+            return [r for r in f.read().splitlines() if r.strip()]
+    except FileNotFoundError:
+        return []
 
 setup(
     name="employee_disciplinary_app",
@@ -12,5 +16,5 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
-    install_requires=install_requires
+    install_requires=get_requirements(),
 )
