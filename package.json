@@ -1,0 +1,9 @@
+{
+  "name": "employee_disciplinary_app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No frontend build step for employee_disciplinary_app'",
+    "build:production": "echo 'No frontend build step for employee_disciplinary_app'"
+  }
+}

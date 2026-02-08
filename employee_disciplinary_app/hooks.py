@@ -7,5 +7,5 @@ app_description = "Employee disciplinary history and reporting for ERPNext"
 app_email = "your.email@example.com"
 app_license = "MIT"
 
-app_include_js = ["/assets/employee_disciplinary_app/js/employee_disciplinary_app.bundle.js"]
+app_include_js = ["employee_disciplinary_app/js/employee_disciplinary_app.bundle.js"]
 app_include_css = ["/assets/employee_disciplinary_app/css/employee_disciplinary_app.css"]
